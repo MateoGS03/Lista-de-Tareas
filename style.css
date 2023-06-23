@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #6eadff;
+    border-radius: 15px;
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#text-input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#add-button {
+    padding: 7px 9px;
+    border: none;
+    background-color: rgb(244, 244, 244);
+}
+
+#sun{
+    float: right;
+}
+
+.todo-item-container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#todo-text {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    user-select: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: blue;
+}
+
+#edit-button,
+#delete-button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
